@@ -1,6 +1,13 @@
-#include <cuda.h>
+//#include <cuda.h>
+#include "std_lib_facilities.h"
 
-void vecAdd(float* A, float* B, float* C, int n) {
+int main() {
+	cout << "Hello, World!\n;"
+	return 0;
+}
+
+
+/* void vecAdd(float* A, float* B, float* C, int n) {
 	int size = n * sizeof(float);
 	float *A_d, *B_d, *C_d;
 
@@ -11,4 +18,4 @@ void vecAdd(float* A, float* B, float* C, int n) {
 
 	//Copy C from the device memory
 	//Free device vectors
-}
+} */
